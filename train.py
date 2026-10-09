@@ -60,7 +60,6 @@ def main():
             print(f"{cfg['run_name']}: depth={cfg['max_depth']} lr={cfg['learning_rate']} "
                   f"RMSE={rmse:.4f} MAE={mae:.4f} R2={r2:.4f}")
 
-    # Part 4: comparison table + best model (lowest RMSE)
     print("\n| Run | Max Depth | Learning Rate | RMSE | MAE | R2 |")
     print("|---|---|---|---|---|---|")
     for r in results:
